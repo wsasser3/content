@@ -53,17 +53,19 @@ if(babyHasMoved === false){
 
 ## Combining different logical operations
 
-Some times the situation is more complicated and you need several variables to be able to ask the right question, for example: Should I wear the blue shirt today? Only if 
+Some times the situation is more complicated and you need several variables to be able to ask the right question, for example: Should I wear the blue shirt today? Only if it is not dirty, if it fits me and also if the color matches with the pant.
 
-```
+Those are 3 separate questions that you can ask on the same condition using two amperson characters `&`:
+
+```js
 let isDirty = true;
 let shirtColor = "blue";
 let size = "M";
 
-if(isDirty === false && 
+if(isDirty === false && shift
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzcyODUwNSwyMDk4ODY3Mjc4LDEyMz
-g2OTAxNDYsLTE2MzUwNDcyOTMsLTEyMjcyNjYzNzAsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbNTM4NzA1MzIzLDIwOTg4NjcyNzgsMTIzOD
+Y5MDE0NiwtMTYzNTA0NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgx
+MTZdfQ==
 -->
