@@ -53,9 +53,14 @@ if(babyHasMoved === false){
 
 ## Combining different logical operations
 
-Some times the situation is more complicated and you need several variables to be able to ask the right question, for example: 
+Some times the situation is more complicated and you need several variables to be able to ask the right question, for example: Should I wear the blue shirt today? Your variables could be:
+
+```
+let isClean = true;
+let combinesWithPants
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4MDE0MjA1LDIwOTg4NjcyNzgsMTIzOD
-Y5MDE0NiwtMTYzNTA0NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbNzc5ODM1NTYsMjA5ODg2NzI3OCwxMjM4Nj
+kwMTQ2LC0xNjM1MDQ3MjkzLC0xMjI3MjY2MzcwLDczMDk5ODEx
+Nl19
 -->
