@@ -1,5 +1,6 @@
 ---
 subtitle: "There is now way you can throw 3 lines of code in an algorithm without have to include a conditional. It's time to guide the computer on how to make decisions!"
+status: "draft"
 title: "Using Conditionals in Coding"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -62,10 +63,12 @@ let isDirty = true;
 let shirtColor = "blue";
 let size = "M";
 
-if(isDirty === false && shift
+if(isDirty === false && shiftColor == "blue" && size == "M"){
+	putOnShirt();
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4NzA1MzIzLDIwOTg4NjcyNzgsMTIzOD
+eyJoaXN0b3J5IjpbNDM0MTE2MjgyLDIwOTg4NjcyNzgsMTIzOD
 Y5MDE0NiwtMTYzNTA0NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgx
 MTZdfQ==
 -->
