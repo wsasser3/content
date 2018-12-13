@@ -26,8 +26,9 @@ If you are using Javascript conditions can be coded using the `if... else` synta
 if(babyHasMoved === true){
 	sendSMS("The baby has moved just now", +13455557777)
 }
-``` 
-Note: Notice how we are using 3 equal symbols instead of just one. That is because we are doing logical operations. 
+```  
+[[warning]]
+| :clip: Notice how we are using 3 equal symbols instead of just one. That is because we are doing logical operations. 
 
 You could also 
 ```js
@@ -38,6 +39,6 @@ if(babyHasMoved === true){
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDYyMTQ1NCwtMTYzNTA0NzI5MywtMT
-IyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEyODM3MjkxNTQsLTE2MzUwNDcyOTMsLT
+EyMjcyNjYzNzAsNzMwOTk4MTE2XX0=
 -->
