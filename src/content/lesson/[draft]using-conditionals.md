@@ -36,13 +36,13 @@ if(babyHasMoved === true){
 	sendSMS("The baby has moved just now", +13455557777);
 }
 else{
-	//this will only execute if babyHasMoved is different than true
+	//this will only execute if babyHasMoved is different than true 
 	sendSMS("The baby has NOT moved", +13455557777);
 }
 ``` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODY5MDE0NiwtMTYzNTA0NzI5MywtMT
-IyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjA5ODg2NzI3OCwxMjM4NjkwMTQ2LC0xNj
+M1MDQ3MjkzLC0xMjI3MjY2MzcwLDczMDk5ODExNl19
 -->
