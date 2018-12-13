@@ -56,7 +56,7 @@ if(babyHasMoved === false){
 
 Some times the situation is more complicated and you need several variables to be able to ask the right question, for example: Should I wear the blue shirt today? Only if it is not dirty, if it fits me and also if the color matches with the pant.
 
-Those are 3 separate questions that you can ask on the same condition using two amperson characters `&`:
+Those are 3 separate questions that you can ask on the same condition using the AND operator that in Javascript is represented with two ampersons characters `&`:
 
 ```js
 let isDirty = true;
@@ -68,7 +68,7 @@ if(isDirty === false && shiftColor == "blue" && size == "M"){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0MTE2MjgyLDIwOTg4NjcyNzgsMTIzOD
-Y5MDE0NiwtMTYzNTA0NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTIwNzI1NjU0NDMsMjA5ODg2NzI3OCwxMj
+M4NjkwMTQ2LC0xNjM1MDQ3MjkzLC0xMjI3MjY2MzcwLDczMDk5
+ODExNl19
 -->
