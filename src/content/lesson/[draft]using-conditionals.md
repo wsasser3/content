@@ -10,7 +10,7 @@ tags: ["conditional rendering", "if else", "using conditionals"]
 
 ## What is a condition?
 
-We make decisions every day since we wake up, most of them are already automated in our brains: Should I make coffe?, Should I ware the red or the blu shirt?, etc. 
+We make decisions every day since we wake up, most of them are already automated in our brains like taking a shower and some other requiere out attention like: Should I ware the red or the blu shirt?
 
 A very similar process of thought can be taugh to a computer, specifing what actions should be done depending on particular situations. For example, think about a baby monitor that will have a termomteter following up on the baby's temprature:
 
@@ -27,6 +27,6 @@ If you are using Javascript
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzUwNDcyOTMsLTEyMjcyNjYzNzAsNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTM5MzkwNjI1MSwtMTYzNTA0NzI5MywtMT
+IyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
 -->
