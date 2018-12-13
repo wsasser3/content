@@ -17,16 +17,17 @@ A very similar process can happend when coding a computer, you can create script
 `If`... **some signal is detected on the mic or camera**... send an sms to +1345 5557777.
 `Else`... do nothing.
 
-That is what we call a "condition": It limits the execution of a particular block of code depending on one or more variable having epevalues.
+That is what we call a "condition": It limits the execution of a particular block of code depending on one or more variable having expected values.
 
 ## How to code a condition
 
-If you are using Javascript 
+If you are using Javascript conditions can be coded using the `if... else` syntax, for example:
+ 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODM3OTk4NywtMTYzNTA0NzI5MywtMT
+eyJoaXN0b3J5IjpbLTEyODIwNzY4NiwtMTYzNTA0NzI5MywtMT
 IyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
 -->
