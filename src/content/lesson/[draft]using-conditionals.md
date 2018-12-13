@@ -12,12 +12,12 @@ tags: ["conditional rendering", "if else", "using conditionals"]
 
 We make decisions every day since we wake up, most of them are already automated in our brains like taking a shower and some other requiere out attention like: Should I ware the red or the blu shirt?
 
-A very similar process can happend when coding a computer, you can create scripts that automate the computer behavior depending on certain variables. For example: a baby monitor that s
+A very similar process can happend when coding a computer, you can create scripts that automate the computer behavior depending on certain variables. For example: a baby monitor that send you an SMS when any sound or camera movement happends.
 
-`If`... **the temprature is more than 28**... send an sms to +1345 5557777.
+`If`... **some signal is detected on the mic or camera**... send an sms to +1345 5557777.
 `Else`... do nothing.
 
-That is what we call a "condition" that limits the execution of a particular block of code depending on one or more variable values.
+That is what we call a "condition": It limits the execution of a particular block of code depending on one or more variable having epevalues.
 
 ## How to code a condition
 
@@ -27,6 +27,6 @@ If you are using Javascript
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTExMzA3NTYsLTE2MzUwNDcyOTMsLT
-EyMjcyNjYzNzAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTMwODM3OTk4NywtMTYzNTA0NzI5MywtMT
+IyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
 -->
