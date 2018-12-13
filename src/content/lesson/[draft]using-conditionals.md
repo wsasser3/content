@@ -22,16 +22,22 @@ That is what we call a "condition": It limits the execution of a particular bloc
 ## How to code a condition
 
 If you are using Javascript conditions can be coded using the `if... else` syntax, for example asuming you have a variable called `babyHasMoved` that contains a boolean that can be either true or false, you write have the following condition:
-```
-if(babyHasMoved == true){
+```js
+if(babyHasMoved === true){
+	sendSMS("The baby has moved just now", +13455557777)
+}
+``` 
+Note: Notice how we are using 3 equal symbols instead of just one. That is because we are doing logical operations. 
+
+You could also 
+```js
+if(babyHasMoved === true){
 	sendSMS("The baby has moved just now", +13455557777)
 }
 ``` 
 
 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2NDU4MDE1LC0xNjM1MDQ3MjkzLC0xMj
-I3MjY2MzcwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTYxMDYyMTQ1NCwtMTYzNTA0NzI5MywtMT
+IyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
 -->
