@@ -21,9 +21,8 @@ That is what we call a "condition": It limits the execution of a particular bloc
 
 ## How to code a condition
 
-If you are using Javascript conditions can be coded using the `if... else` syntax, for example:
+If you are using Javascript conditions can be coded using the `if... else` syntax, for example asuming you have a variable called `babyHasMoved` that contains a boolean that can be either true or false, you write have the following condition:
 ```
-let babyHasMoved = true;
 if(babyHasMoved == true){
 	sendSMS("The baby has moved just now", +13455557777)
 }
@@ -33,6 +32,6 @@ if(babyHasMoved == true){
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjgzOTUwOCwtMTYzNTA0NzI5MywtMT
-IyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTE2NDU4MDE1LC0xNjM1MDQ3MjkzLC0xMj
+I3MjY2MzcwLDczMDk5ODExNl19
 -->
