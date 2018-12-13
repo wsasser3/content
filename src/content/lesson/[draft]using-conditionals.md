@@ -28,17 +28,21 @@ if(babyHasMoved === true){
 }
 ```  
 [[warning]]
-| :clip: Notice how we are using 3 equal symbols instead of just one. That is because we are doing logical operations. 
+| :point_up: Notice how we are using 3 equal symbols instead of just one. That is because we are doing logical operations. 
 
-You could also 
+You could have a block of code execute only if the condition does not apply using the `else` statement:
 ```js
 if(babyHasMoved === true){
-	sendSMS("The baby has moved just now", +13455557777)
+	sendSMS("The baby has moved just now", +13455557777);
+}
+else{
+	//this will only execute if 
+	sendSMS("The baby has NOT moved", +13455557777);
 }
 ``` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODM3MjkxNTQsLTE2MzUwNDcyOTMsLT
+eyJoaXN0b3J5IjpbLTE1NTMwMjc1MzcsLTE2MzUwNDcyOTMsLT
 EyMjcyNjYzNzAsNzMwOTk4MTE2XX0=
 -->
