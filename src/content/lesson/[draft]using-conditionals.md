@@ -19,14 +19,14 @@ A very similar process of thought can be taugh to a computer, specifing what act
 
 That is what we call a "condition" that limits the execution of a particular block of code depending on one or more variable values.
 
-## How
+## How to code a condition
 
-We have to be vey logic about this
+If you are using Javascript 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDc1NDczLC0xMjI3MjY2MzcwLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTE2MzUwNDcyOTMsLTEyMjcyNjYzNzAsNz
+MwOTk4MTE2XX0=
 -->
