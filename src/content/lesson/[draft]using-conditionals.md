@@ -22,12 +22,17 @@ That is what we call a "condition": It limits the execution of a particular bloc
 ## How to code a condition
 
 If you are using Javascript conditions can be coded using the `if... else` syntax, for example:
- 
+```
+let babyHasMoved = true;
+if(babyHasMoved == true){
+	sendSMS("The baby has moved just now", +13455557777)
+}
+``` 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODIwNzY4NiwtMTYzNTA0NzI5MywtMT
+eyJoaXN0b3J5IjpbMTE1NjgzOTUwOCwtMTYzNTA0NzI5MywtMT
 IyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
 -->
