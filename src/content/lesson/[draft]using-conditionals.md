@@ -41,9 +41,18 @@ else{
 }
 ``` 
 
-
+Or you could have separate conditionals asking in different ways:
+```
+if(babyHasMoved === true){
+	sendSMS("The baby has moved just now", +13455557777);
+}
+if(babyHasMoved === false){
+	//this will only execute if babyHasMoved is different than true 
+	sendSMS("The baby has NOT moved", +13455557777);
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODQ3MTE1NiwyMDk4ODY3Mjc4LDEyMz
-g2OTAxNDYsLTE2MzUwNDcyOTMsLTEyMjcyNjYzNzAsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0MzU2Mzk1OTksMjA5ODg2NzI3OCwxMj
+M4NjkwMTQ2LC0xNjM1MDQ3MjkzLC0xMjI3MjY2MzcwLDczMDk5
+ODExNl19
 -->
