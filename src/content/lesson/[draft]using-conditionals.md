@@ -8,8 +8,14 @@ tags: ["conditional rendering", "if else", "using conditionals"]
 
 ---
 
-## We already kno
+## We already know what variables are
+
+We already know that a variable contains some information like: colors, names, emails, etc.
+
+Now we need the computar to perform different tasks based on those conditions, for example:
+
+`If`... there is a yellow person... send an sms to the doctor.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzcwNzczMjksLTEyMjcyNjYzNzAsNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNTAxMDE5NDc2LC0xMjI3MjY2MzcwLDczMD
+k5ODExNl19
 -->
