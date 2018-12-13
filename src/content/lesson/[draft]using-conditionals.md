@@ -14,8 +14,11 @@ We already know that a variable contains some information like: colors, names, e
 
 Now we need the computar to perform different tasks based on those conditions, for example:
 
-`If`... there is a yellow person... send an sms to the doctor.
+`If`... **there is a yellow person**... send an sms to the doctor.
+`Else`... do nothing.
+
+We make decisions every day since we wake up, most of them are already automated in our brains: What should 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxMDE5NDc2LC0xMjI3MjY2MzcwLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTgzMDY3MzYzOSwtMTIyNzI2NjM3MCw3Mz
+A5OTgxMTZdfQ==
 -->
