@@ -8,23 +8,25 @@ tags: ["conditional rendering", "if else", "using conditionals"]
 
 ---
 
-## We already know what variables are
+## What is a condition?
 
 We make decisions every day since we wake up, most of them are already automated in our brains: Should I make coffe?, Should I ware the red or the blu shirt?, etc. 
 
 A very similar process of thought can be taugh to a computer, specifing what actions should be done depending on particular situations. For example, think about a baby monitor that will have a termomteter following up on the baby's temprature:
 
-`If`... **the temprature is more than 28**... send an sms to the doctor.
+`If`... **the temprature is more than 28**... send an sms to +1345 5557777.
 `Else`... do nothing.
 
-We already know that a variable contains some information like: colors, names, emails, etc.
+That is what we call a "condition" that limits the execution of a particular block of code depending on one or more variable values.
 
-Now we need the computar to perform different tasks based on those conditions, for example:
+## How
+
+We have to be vey logic about this
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4ODI0NzkxLC0xMjI3MjY2MzcwLDczMD
+eyJoaXN0b3J5IjpbMTAyMDc1NDczLC0xMjI3MjY2MzcwLDczMD
 k5ODExNl19
 -->
