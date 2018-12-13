@@ -42,17 +42,20 @@ else{
 ``` 
 
 Or you could have separate conditionals asking in different ways:
-```
+```js
 if(babyHasMoved === true){
 	sendSMS("The baby has moved just now", +13455557777);
 }
 if(babyHasMoved === false){
-	//this will only execute if babyHasMoved is different than true 
 	sendSMS("The baby has NOT moved", +13455557777);
 }
 ```
+
+## Combining different logical operations
+
+Some times the situation is more complicated and you need several variables to be able to ask the right question, for example: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU2Mzk1OTksMjA5ODg2NzI3OCwxMj
-M4NjkwMTQ2LC0xNjM1MDQ3MjkzLC0xMjI3MjY2MzcwLDczMDk5
-ODExNl19
+eyJoaXN0b3J5IjpbMjk4MDE0MjA1LDIwOTg4NjcyNzgsMTIzOD
+Y5MDE0NiwtMTYzNTA0NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgx
+MTZdfQ==
 -->
