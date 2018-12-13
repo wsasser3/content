@@ -12,7 +12,7 @@ tags: ["conditional rendering", "if else", "using conditionals"]
 
 We make decisions every day since we wake up, most of them are already automated in our brains like taking a shower and some other requiere out attention like: Should I ware the red or the blu shirt?
 
-A very similar process of thought can be taugh to a computer, specifing what actions should be done depending on particular situations. For example, think about a baby monitor that will have a termomteter following up on the baby's temprature:
+A very similar process can happend when coding a computer, you can create scripts that automate the computer behavior depending on certain variables. For example: a baby monitor that s
 
 `If`... **the temprature is more than 28**... send an sms to +1345 5557777.
 `Else`... do nothing.
@@ -27,6 +27,6 @@ If you are using Javascript
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzkwNjI1MSwtMTYzNTA0NzI5MywtMT
-IyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NTExMzA3NTYsLTE2MzUwNDcyOTMsLT
+EyMjcyNjYzNzAsNzMwOTk4MTE2XX0=
 -->
