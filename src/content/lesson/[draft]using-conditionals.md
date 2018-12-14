@@ -18,7 +18,7 @@ A very similar process can happen when coding a computer, you can create scripts
 For example, a baby monitor that send you an SMS when any sound or camera movement happends:
 
 `If`... 
-**some signal is detected on the mic or camera**... 
+**signal is detected on the mic or camera**... 
 send an sms to +1345 5557777.
 
 `Else`... do nothing.
@@ -78,7 +78,7 @@ if(isDirty === false && shiftColor == "blue" && size == "M"){
 #### The `OR` operator:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI0NTM4NCwtNjg5MzMwMjc0LDIwOT
-g4NjcyNzgsMTIzODY5MDE0NiwtMTYzNTA0NzI5MywtMTIyNzI2
-NjM3MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMDMyNzUzODAsLTY4OTMzMDI3NCwyMD
+k4ODY3Mjc4LDEyMzg2OTAxNDYsLTE2MzUwNDcyOTMsLTEyMjcy
+NjYzNzAsNzMwOTk4MTE2XX0=
 -->
