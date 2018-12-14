@@ -13,9 +13,14 @@ tags: ["conditional rendering", "if else", "using conditionals"]
 
 We make decisions every day since we wake up, most of them are already automated in our brains like taking a shower and some other requiere out attention like: Should I ware the red or the blu shirt?
 
-A very similar process can happend when coding a computer, you can create scripts that automate the computer behavior depending on certain variables. For example: a baby monitor that send you an SMS when any sound or camera movement happends.
+A very similar process can happen when coding a computer, you can create scripts that automate the computer behavior and decisions depending on certain variables. 
 
-`If`... **some signal is detected on the mic or camera**... send an sms to +1345 5557777.
+For example, a baby monitor that send you an SMS when any sound or camera movement happends:
+
+`If`... 
+**some signal is detected on the mic or camera**... 
+send an sms to +1345 5557777.
+
 `Else`... do nothing.
 
 That is what we call a "condition": It limits the execution of a particular block of code depending on one or more variable having expected values.
@@ -73,7 +78,7 @@ if(isDirty === false && shiftColor == "blue" && size == "M"){
 #### The `OR` operator:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTMzMDI3NCwyMDk4ODY3Mjc4LDEyMz
-g2OTAxNDYsLTE2MzUwNDcyOTMsLTEyMjcyNjYzNzAsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTExMzI0NTM4NCwtNjg5MzMwMjc0LDIwOT
+g4NjcyNzgsMTIzODY5MDE0NiwtMTYzNTA0NzI5MywtMTIyNzI2
+NjM3MCw3MzA5OTgxMTZdfQ==
 -->
