@@ -14,13 +14,13 @@ The Context API is one of the easiest ways the React.js team has proposed to con
 
 ### Life before the Context API was harder
 
-React is amazing 
+React is amazing but there are still big challenges a front-end developer faces when developing a mobile or web application:
 
-1. Why is it so hard to share some data between the entire application?
-2. Why is it so hard to pass data between components?
-3. Have you tried using Redux? 
+1. It is hard to share some data between the entire application.
+2. It is hard to pass data between components.
+3. Redux is still an overkill for the majority of the applications.
 
-The Context API is here to solve some of those conundrums:
+The Context API is here to solve those conundrums:
 
 1. Avoid "Property Hell": If you have worked with react already you probably have felt the frustration of passing properties all over your application, we call it "property hell". 
 2. Have a centralized global application state: Instead of being limited to local states on views, you can now share data on one central store that is quickly available from any javascript file, view or component.
@@ -93,5 +93,5 @@ const TodoList = () => (<MyContext.Consumer>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3ODA3NDExXX0=
+eyJoaXN0b3J5IjpbLTIxODE3OTE1MV19
 -->
