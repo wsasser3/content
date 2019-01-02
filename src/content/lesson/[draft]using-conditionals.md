@@ -17,15 +17,17 @@ A very similar process can happen when coding, you can create scripts (algorithm
 
 ## What is a condition?
 
-A condition is just something that needs to happen before something else can happen. For example: A baby monitor that sends you an SMS when... the sound or camera variations occur:
+A condition is just something that needs to happen before something else can happen. For example: A baby monitor that sends you an SMS when... the sound or camera signal variations occur.
+
+In coding, to tell the computer how to make a decision based on a condition you use the word: `IF`
 
 `If`... 
 **signal is detected on the mic or camera**... 
 send an sms to +1345 5557777.
 
-`Else`... do nothing.
+`ELSE`... do nothing.
 
-That is what we call a "condition": It limits the execution of a particular block of code depending on one or more variable having expected values.
+If programing, It limits the execution of a particular block of code depending on one or more variable having expected values.
 
 ## How to code a condition
 
@@ -80,7 +82,7 @@ if(isDirty === false && shiftColor == "blue" && size == "M"){
 #### The `OR` operator:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjA1ODk5MCwtMTAwMzI3NTM4MCwtNj
+eyJoaXN0b3J5IjpbLTgxNjQyOTQ1MywtMTAwMzI3NTM4MCwtNj
 g5MzMwMjc0LDIwOTg4NjcyNzgsMTIzODY5MDE0NiwtMTYzNTA0
 NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
 -->
