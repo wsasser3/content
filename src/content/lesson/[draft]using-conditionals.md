@@ -63,7 +63,7 @@ if(babyHasMoved === false){
 
 ## Combining different logical operations
 
-Some times the situation is more complicated and you need several variables to be able to ask the right question, for example: Should I wear the blue shirt today? Only if it is not dirty, if it fits me and also if the color matches with the pant.
+Some times the situation is more complicated and you need to ask several questions, for example: Should I wear the blue shirt today? Only if it is not dirty, it fits me and also if the color is blue.
 
 #### The `AND` operator:
 
@@ -81,9 +81,10 @@ if(isDirty === false && shiftColor == "blue" && size == "M"){
 
 #### The `OR` operator:
 
+The OR operator only cares about one question being true, for example if you want to wear the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyMTUzNzQ0LC0yMjEwOTI1OTcsLTEwMD
-MyNzUzODAsLTY4OTMzMDI3NCwyMDk4ODY3Mjc4LDEyMzg2OTAx
-NDYsLTE2MzUwNDcyOTMsLTEyMjcyNjYzNzAsNzMwOTk4MTE2XX
-0=
+eyJoaXN0b3J5IjpbLTIxMDkzNjY4MzUsLTIyMTA5MjU5NywtMT
+AwMzI3NTM4MCwtNjg5MzMwMjc0LDIwOTg4NjcyNzgsMTIzODY5
+MDE0NiwtMTYzNTA0NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgxMT
+ZdfQ==
 -->
