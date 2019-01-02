@@ -13,11 +13,11 @@ tags: ["conditional rendering", "if else", "using conditionals"]
 
 We make decisions every day since we wake up, most of them are already automated in our brains like taking a shower and some other requiere more attention like were to invest money or deciding were to eat with your partner :smile:.
 
-A very similar process can happen when coding, you can create scripts (algorithms) that automate the computer behavior and decisions depending on certain variables.
+A very similar process can happen when coding, you can create scripts (algorithms) that automate the computer behavior and decisions depending on certain conditions.
 
+## What is a condition?
 
-
-For example, a baby monitor that sends you an SMS when sound or camera variations occur:
+A condition is just something that needs to happen before something else can happen. For example: A baby monitor that sends you an SMS when... the sound or camera variations occur:
 
 `If`... 
 **signal is detected on the mic or camera**... 
@@ -80,7 +80,7 @@ if(isDirty === false && shiftColor == "blue" && size == "M"){
 #### The `OR` operator:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4NTE3NDc2LC0xMDAzMjc1MzgwLC02OD
-kzMzAyNzQsMjA5ODg2NzI3OCwxMjM4NjkwMTQ2LC0xNjM1MDQ3
-MjkzLC0xMjI3MjY2MzcwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjA0MjA1ODk5MCwtMTAwMzI3NTM4MCwtNj
+g5MzMwMjc0LDIwOTg4NjcyNzgsMTIzODY5MDE0NiwtMTYzNTA0
+NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
 -->
