@@ -1,7 +1,7 @@
 ---
 subtitle: "There is now way you can throw 3 lines of code in an algorithm without have to include a conditional. It's time to guide the computer on how to make decisions!"
 status: "draft"
-title: "Using Conditionals in Coding"
+title: "Using Conditionals in Coding or Programing"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-12-12"
@@ -94,6 +94,9 @@ if(isDirty === false && (shiftColor == "blue" || shiftColor == "red") && size ==
 ```
 [[warning]]
 | :point_up: We are grouping the conditions to prioritize the way the computer will ask the questions, you can group questions the same way you can group operations in Math using `()` parenthesis (round brackets). 
+
+[[warning]]
+| ::tv:: Here is a cool video about conditionals: https://www.youtube.com/watch?v=mbT7sSmVUS8
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDA3NDI1NF19
+eyJoaXN0b3J5IjpbLTg0MjU0MDg2M119
 -->
