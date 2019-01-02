@@ -95,8 +95,8 @@ if(isDirty === false && (shiftColor == "blue" || shiftColor == "red") && size ==
 [[warning]]
 | :point_up: We are grouping the conditions to prioritize the way the computer will ask the questions, you can group questions the same way you can group operations in Math using `()` parenthesis (round brackets). 
 
-[[warning]]
-| ::tv:: Here is a cool video about conditionals: https://www.youtube.com/watch?v=mbT7sSmVUS8
+[[info]]
+| :tv: Here is a cool video about conditionals: https://www.youtube.com/watch?v=mbT7sSmVUS8
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjU0MDg2M119
+eyJoaXN0b3J5IjpbMzcxMjM4NDI5XX0=
 -->
