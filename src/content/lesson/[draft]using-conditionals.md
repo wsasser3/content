@@ -38,7 +38,7 @@ if(babyHasMoved === true){
 }
 ```  
 [[warning]]
-| :point_up: Notice how we are using 3 equal symbols instead of just one. That is because we are doing logical operations. 
+| :point_up: Notice how we are using 3 equal symbols instead of just one. That is because we are asking a question to the computer, if we use just one equal the computar will think that we are assigning the value `true` to the variable `babyHasMoved`. It is called a [logical operation](https://www.youtube.com/watch?v=mbT7sSmVUS8).
 
 You could have a block of code execute only if the condition does not apply using the `else` statement:
 ```js
@@ -82,7 +82,8 @@ if(isDirty === false && shiftColor == "blue" && size == "M"){
 #### The `OR` operator:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTA5MjU5NywtMTAwMzI3NTM4MCwtNj
-g5MzMwMjc0LDIwOTg4NjcyNzgsMTIzODY5MDE0NiwtMTYzNTA0
-NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDgyMTUzNzQ0LC0yMjEwOTI1OTcsLTEwMD
+MyNzUzODAsLTY4OTMzMDI3NCwyMDk4ODY3Mjc4LDEyMzg2OTAx
+NDYsLTE2MzUwNDcyOTMsLTEyMjcyNjYzNzAsNzMwOTk4MTE2XX
+0=
 -->
