@@ -81,7 +81,7 @@ if(isDirty === false && shiftColor == "blue" && size == "M"){
 
 #### The `OR` operator:
 
-The OR operator only cares about one question being true, for example lets say we can ware blue or red shirts:
+The OR operator only cares about one question being true, for example lets say we can ware `blue` or `red` shirts:
 
 ```js
 let isDirty = true;
@@ -92,9 +92,11 @@ if(isDirty === false && (shiftColor == "blue" || shiftColor == "red") && size ==
 	putOnShirt();
 }
 ```
+
+You can group questions the same way you can group operations in Math using `()` parenthesis (round brackets). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg4MzQ2MjYsLTIyMTA5MjU5NywtMT
-AwMzI3NTM4MCwtNjg5MzMwMjc0LDIwOTg4NjcyNzgsMTIzODY5
-MDE0NiwtMTYzNTA0NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgxMT
-ZdfQ==
+eyJoaXN0b3J5IjpbMTY0ODE1NDkyNywtMjIxMDkyNTk3LC0xMD
+AzMjc1MzgwLC02ODkzMzAyNzQsMjA5ODg2NzI3OCwxMjM4Njkw
+MTQ2LC0xNjM1MDQ3MjkzLC0xMjI3MjY2MzcwLDczMDk5ODExNl
+19
 -->
