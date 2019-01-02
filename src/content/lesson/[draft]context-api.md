@@ -10,11 +10,11 @@ tags: ["reactjs"]
 
 ## Why the context API?
 
-The Context API is one of the easiest ways the React.js team has proposed to control your data in small to mid-sized apps. Before Context, our best hope was using more complicated approaches like Flux or Redux that really seemed like an overkill in most of the times.
+The Context API is one of the easiest ways the React.js team has proposed to control your data in small to mid-sized apps. It is basically a way to re-render any component or view based on the data that has changed.
 
 ### Life before the Context API was harder
 
-People say that React.js makes the easy stuff hard and the hard stuff easy. I love that saying, it's so true :sweat: S
+React is amazing 
 
 1. Why is it so hard to share some data between the entire application?
 2. Why is it so hard to pass data between components?
@@ -93,5 +93,5 @@ const TodoList = () => (<MyContext.Consumer>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5ODI5Nzk3XX0=
+eyJoaXN0b3J5IjpbODE3ODA3NDExXX0=
 -->
