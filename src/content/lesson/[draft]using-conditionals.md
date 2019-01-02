@@ -11,7 +11,7 @@ tags: ["conditional rendering", "if else", "using conditionals"]
 
 ## What is a condition?
 
-We make decisions every day since we wake up, most of them are already automated in our brains like taking a shower and some other requiere out attention like: Should I ware the red or the blu shirt?
+We make decisions every day since we wake up, most of them are already automated in our brains like taking a shower and some other requiere more attention like were to invest money or deciding were to eat
 
 A very similar process can happen when coding a computer, you can create scripts that automate the computer behavior and decisions depending on certain variables. 
 
@@ -78,7 +78,7 @@ if(isDirty === false && shiftColor == "blue" && size == "M"){
 #### The `OR` operator:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDMyNzUzODAsLTY4OTMzMDI3NCwyMD
-k4ODY3Mjc4LDEyMzg2OTAxNDYsLTE2MzUwNDcyOTMsLTEyMjcy
-NjYzNzAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTE4NDUwNzY3OSwtMTAwMzI3NTM4MCwtNj
+g5MzMwMjc0LDIwOTg4NjcyNzgsMTIzODY5MDE0NiwtMTYzNTA0
+NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgxMTZdfQ==
 -->
