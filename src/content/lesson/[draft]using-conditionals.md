@@ -92,11 +92,11 @@ if(isDirty === false && (shiftColor == "blue" || shiftColor == "red") && size ==
 	putOnShirt();
 }
 ```
-
-You can group questions the same way you can group operations in Math using `()` parenthesis (round brackets). 
+[[warning]]
+| :point_up: We are grouping the conditions to prioritize the way the computer will ask the questions, you can group questions the same way you can group operations in Math using `()` parenthesis (round brackets).  The computer will start resolving inside the p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODE1NDkyNywtMjIxMDkyNTk3LC0xMD
-AzMjc1MzgwLC02ODkzMzAyNzQsMjA5ODg2NzI3OCwxMjM4Njkw
-MTQ2LC0xNjM1MDQ3MjkzLC0xMjI3MjY2MzcwLDczMDk5ODExNl
-19
+eyJoaXN0b3J5IjpbLTEyMjMyNjAyMDAsMTY0ODE1NDkyNywtMj
+IxMDkyNTk3LC0xMDAzMjc1MzgwLC02ODkzMzAyNzQsMjA5ODg2
+NzI3OCwxMjM4NjkwMTQ2LC0xNjM1MDQ3MjkzLC0xMjI3MjY2Mz
+cwLDczMDk5ODExNl19
 -->
