@@ -81,9 +81,19 @@ if(isDirty === false && shiftColor == "blue" && size == "M"){
 
 #### The `OR` operator:
 
-The OR operator only cares about one question being true, for example if you want to wear the
+The OR operator only cares about one question being true, for example lets say we can ware blue or red shirts:
+
+```js
+let isDirty = true;
+let shirtColor = "blue";
+let size = "M";
+
+if(isDirty === false && (shiftColor == "blue" || shiftColor == "red") && size == "M"){
+	putOnShirt();
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDkzNjY4MzUsLTIyMTA5MjU5NywtMT
+eyJoaXN0b3J5IjpbLTE5ODg4MzQ2MjYsLTIyMTA5MjU5NywtMT
 AwMzI3NTM4MCwtNjg5MzMwMjc0LDIwOTg4NjcyNzgsMTIzODY5
 MDE0NiwtMTYzNTA0NzI5MywtMTIyNzI2NjM3MCw3MzA5OTgxMT
 ZdfQ==
