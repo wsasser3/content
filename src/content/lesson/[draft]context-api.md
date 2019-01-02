@@ -8,7 +8,7 @@ tags: ["reactjs"]
 
 ---
 
-## Don't be scared about "The Context API"
+## Why the context API?
 
 The Context API is one of the easiest ways the React.js team has proposed to control your data in small to mid-sized apps. Before Context, our best hope was using more complicated approaches like Flux or Redux that really seemed like an overkill in most of the times.
 
@@ -93,5 +93,5 @@ const TodoList = () => (<MyContext.Consumer>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODMwODAwXX0=
+eyJoaXN0b3J5IjpbOTY5ODI5Nzk3XX0=
 -->
