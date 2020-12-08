@@ -1,0 +1,9 @@
+ports:
+    - port: 3000
+tasks:
+    - init:
+        npm install;
+      command: >
+        npm i gatsby-cli -g;
+        npm i now -g;
+        npm run start

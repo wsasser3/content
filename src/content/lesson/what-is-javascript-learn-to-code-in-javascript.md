@@ -1,14 +1,15 @@
 ---
-title: "What is JavaScript? Learn to Code in JavaScript here"
+title: "What is JavaScript? Learn to Code in JavaScript"
 subtitle: "Get to know what is JavaScript, Everybody is talking about it and by now you probably know its time to learn to code in JavaScript in order to get things to the next level."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
+status: "pending_translation"
+date: "2020-10-19T12:36:31-04:00"
+tags: ["javascript"]
 
-date: "2018-02-11"
-tags: ["fale"]
 ---
 
-## **But, What is coding?**
+## But, What is coding?
 ***
 
 **Coding is not HTML, CSS or Position and Display…** Those languages were not designed for developers, they are just the only way we have to render stuff in a browser.
@@ -19,7 +20,7 @@ Everybody uses computers for different reasons.  Some computers are created to h
 
 No matter what the computer is made for, the very base of its existence is the same: to follow commands.  In this chapter you will learn 5 basic things you’ll need to understand any modern computer through code.
 
-## **Variables**
+## Variables
 ***
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -34,7 +35,7 @@ A variable is a container in which you can store any data.  For example, you can
 var age = 24;
 ```
 
-![what is javascript](https://ucarecdn.com/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce/)
+![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
 
 With virtually any programming language you can create as many variables as you want or need.  To start you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document/project).
 
@@ -48,7 +49,7 @@ As you can see above, the new variable name does not tell us anything about the 
 
 Choosing the name for your variable really matters, so we beg you not to use generic names.  Be descriptive!  A vague name will make it difficult to understand the purpose of the variable, especially for other coders (including your future self).
 
-## **Assigning a Value to Variables**
+## Assigning a Value to Variables
 ***
 
 As developers, we can set the value of a variable at any time using the `=` operator.  You do not have to set a value when you first declare a variable.  You can set, or re-set (override) the value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
@@ -85,7 +86,7 @@ Variable values are subject to change over time.  To retrieve a variable value y
 
 
 
-## **Data Types**
+## Data Types
 ***
 Variables can have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types
 
@@ -106,7 +107,7 @@ Variables can have different types of values.  Some of them are available only i
 
 
 
-## **Operations**
+## Operations
 ***
 
 What operations can I do to variables?  Depending on the data-type you have a few different possibilities:
@@ -116,7 +117,7 @@ What operations can I do to variables?  Depending on the data-type you have a fe
 + You cannot do much to Null, Booleans and Undefined data-types.
 + We will talk about Arrays and Objects in a different section.  They require a lot more attention.
 
-## **Functions**
+## Functions
 ***
 
 Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
@@ -124,7 +125,7 @@ Functions are pieces of code that can be re-used several times during runtime re
 + Divide and conquer: It is always easier to split your problems into several smaller problems.  This will become your biggest challenge when solving complex problems.  Functions will be your best tools for abstraction.
 + Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficent to keep writing the same code over and over again.
 
-## **Declaring a Function**
+## Declaring a Function
 ***
 
 To declare a function in JavaScript you have to start using the word `function` followed by the name you want for that function.
@@ -135,7 +136,7 @@ Then, you will open a curly bracket and write the code that your function must a
 
 **Note:**  To return something you use the `return` word at any time within the content of your function (between the curly brackets).
 
-![learn to code in javascript](https://ucarecdn.com/0c4fa020-02f6-4ec0-bfeb-a6292145a153/)
+![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
 
 ```javascript
 function multiply (param1, param2)
@@ -147,12 +148,12 @@ function multiply (param1, param2)
 
 <div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Click to open demo in a new window</a></small></div>
 
-## **Parameters and Function Scope**
+## Parameters and Function Scope
 ***
 
 The scope of a variable determines where that variable is available to be used.  There are two main types of scopes:
 
-### Local Variables 
+### Local Variables
 
 A local variable is available only inside the scope of the nearest curly brackets.  For example, variables that are passed as parameters into functions are only available within the content of that particular function.
 
@@ -171,17 +172,17 @@ Computers think of everything in black or white.  Everything is either True or F
 
 For example, if I want a computer to give candy only to kids older than 13 years of age, I can instruct the computer to ask:
 
- **Is this kid’s age greater than 13?  Yes or no?** 
+ **Is this kid’s age greater than 13?  Yes or no?**
 
 **In JavaScript, you can instruct the computer to do the following logical operations:**
 
 |**Operation**  |**Syntaxis**   |**Examples**   |
 |:--------------|:--------------|:--------------|
 |Equal to       |==             |Is 5 == 5? True!<br>Is 5 == 4? False!<br>Is 5 == '5'? True!    |
-|Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? False!<br>Is 1 != 'Hello' False!   |
+|Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? False!<br>Is 1 != 'Hello' True!   |
 |Greater than   |>              |Is 5 > 5? False!<br>Is 6 > 3? True!    |
 |Less than      |<              |Is 6 < 12? True            |
-|Greater equal  |>=             |Is 6 <= 6? True<br>Is 3 <= 6? True    |
+|Greater or equal  |>=             |Is 6 <= 6? True<br>Is 3 <= 6? True    |
 |Less or equal   |<=            |You get the idea 🙂       |
 
 To create really useful operations, you can combine several operations in the same question using AND, OR and NOT.
@@ -195,10 +196,10 @@ You can group the logical operations in parentheses, and also use nested parenth
 |NOT     |!     |NOT will be the exact opposite of the result of the logical operator:<br>Is !(5 > 5)? True!<br>Is !(True)? False!    |
 
 
-## **Control the Flow of Your Code**
+## Control the Flow of Your Code
 ***
 
-Okay, now is when everything starts getting fun!  To control your application’s flow you will have several options, and you are going to use each of them every single day.  So, you must to become comfortable using them.
+Okay, now is when everything starts getting fun!  To control your application’s flow you will have several options, and you are going to use each of them every single day.  So, you must become comfortable using them.
 
 ### If…else…
 
@@ -214,7 +215,7 @@ if (number < 18) {
 }
 ```
 
-## **Switch**
+## Switch
 ***
 
 Similar to if…else… but a little bit more organized.  Here you will specify all of the possible case scenarios – including the `default scenario` that will occur if none of the other scenarios happen.
@@ -236,12 +237,12 @@ Imagine you are inside an elevator – the elevator needs to loop throughout the
 
 A `while` loop will execute a block of code as long as a condition is true.  Once the condition returns false, the loop will stop executing the block of code.
 
-```javascript  
+```javascript
 var sum = 0;
 var number = 1;
-while (number <= 50) { 
-  sum += number;       
-  number++;             
+while (number <= 50) {
+  sum += number;
+  number++;
 }
 console.log("Sum = " + sum);
 ```
@@ -259,7 +260,7 @@ Note:  When looping, make sure that the statement will eventually return false s
 
 
 ```javascript
-for (var i = 0; i < 10; i++) { 
+for (var i = 0; i < 10; i++) {
     document.write("This is number" + " " + i);
 }
 ```
@@ -287,7 +288,7 @@ for(items in dog){
 }
 ```
 
-## **So.. tell me, did you like coding?**
+## So.. tell me, did you like coding?
 ***
 
 Coding is like Taco Bell:  you always use the same ingredients except they are just mixed in different ways.  You know how to write code, but…do you know how to solve real problems?

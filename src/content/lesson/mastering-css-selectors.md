@@ -1,40 +1,40 @@
 ---
 title: "Mastering CSS Selectors"
-subtitle: "Aside from mastering the display and position CSS rule, learning how to use the CSS selectors is the most important skill you need to develop. You don't have to remember the syntax of each of them. But you do need to have them on your radar in order to be able to develop the right strategies when building your CSS stylesheet. "
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+subtitle: "Aside from mastering the display and position CSS rule, learning how to use the CSS selectors is the most important skill you need to develop. You don't have to remember the syntax of each of them, but keep them on your radar to be able to develop the right strategies when building your CSS stylesheet. "
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-01-11"
-tags: ["fale"]
+date: "2020-10-19T12:36:31-04:00"
+tags: ["CSS"]
+status: "published"
+
 ---
 
-## **Why Do We Need to Learn about Selectors?**
-***
+## Why Do We Need to Learn about Selectors?
 
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
 
 ```css{numberLines: true}
-//You first say that you want all the H2 tags to be font-size: 14px
+//You first might want all the H2 tags to be font-size: 14px; and color: blue;
 h2{
     font-size: 14px;
     color: blue;
 }
 
-//But then you have a very particular page where the background is blue, so you need your headings to be white
+//But then you have a very particular page where the background is also blue, so you need your headings to be white
 
 h2{
     color: white;
 }
 ```
 
-This happens all the time and at some point it can be challenging to override previous styles.  You must organize your styles properly and start from the least specific to the most specific.
+This happens all the time and, at some point it, can be challenging to override previous styles.  You must organize your styles properly and start from the least specific to the most specific.
 
-These very specific selectors will help you a lot.  They will be your best tool when fighting your styles war!
+This "very specific" selectors will help you a lot.  They will be your best weapon when fighting your styles war!
 
 [[info]]
 | :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
-## **The Child Selector**
-***
+## The Child Selector
 
 ```css
 #someDiv > p {
@@ -49,11 +49,7 @@ This statement takes the paragraph tags that are children of the div and turns t
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 
-
-
-
-## **The Adjacent Sibling Selector**
-***
+## The Adjacent Sibling Selector
 
 ```css
 p + p {
@@ -61,17 +57,17 @@ p + p {
 }
 ```
 
-We used the adjacent sibling selector to change the second and third paragraph to red.  This seems very tricky, doesn’t it?  Instinctively, we would expect the first paragraph to be red as well.  After all, the first paragraph is on the same level of the tree as the next two, and, has siblings.
+We used the adjacent sibling selector to change the second and third paragraph to red.  This seems very tricky, doesn’t it?  Instinctively, we would expect the first paragraph to be red as well.  After all, the first paragraph is on the same level as the next two, and, has siblings.
 
 However, this selector only applies to elements that are preceded by something else.  In this instance, only the paragraphs preceded directly by a sibling paragraph will be targeted.
 
-The first paragraph in the list is preceded by the div, so it isn’t changed.
+The first paragraph in the list is preceded by the div, so it remains unchanged.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
-## **The Almighty Asterisk**
+## The Almighty Asterisk
 ***
 
 ```css
@@ -80,7 +76,7 @@ The first paragraph in the list is preceded by the div, so it isn’t changed.
 }
 ```
 
-The following turns every element inside a div red – this includes items like links that have a default color set to something else and wouldn’t be affected by simply targeting the div.
+The previous CSS code turns red every element inside a specific div – this includes items such as links, that have a default color set to something else and wouldn’t be affected by simply targeting the div.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -94,27 +90,27 @@ div * p {
 }
 ```
 
-You can take this as far as you want – the following targets the "great grandchildren" of the div.  You will find this chaining method used frequently in CSS debugging tricks.
+You can take this as far as you want – the following targets the "grandchildren" of the div.  You will find this chaining method used frequently in CSS debugging tricks.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
 
-# **Attribute Value Selector**
+## Attribute Value Selector
 ***
 
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best.  Instead, what we can do is use an attribute selector to target the specific "href" that we’re interested in.
+If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best.  Instead, what we can do is use an attribute selector to target the specific `href` that we’re interested in.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
 
-## **Arbitrary Substring Attribute Value Selector**
+## Arbitrary Substring Attribute Value Selector
 ***
 
 ```css
@@ -126,7 +122,7 @@ The following code targets any div with the word "section" in the title.  It can
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-# **Pseudo Class Selectors**
+# Pseudo Class Selectors
 ***
 
 
@@ -137,12 +133,12 @@ a:visited{color: yellow;}
 a:hover{color: blue;}
 a:active{color: red;}
 ```
-You can change colors in any element on the website, depending on its status:
+You can assign a different color to any link on the website, depending on its status:
 
-+ `:link` will be the default.
-+ `:visited` is self explanatory.
-+ `:hover` is when the mouse is over.
-+ `:active` is when the mouse is clicking on it.
++ `:link` default color, before clicking on it.
++ `:visited` after clicking the link.
++ `:hover` when the cursor is over the link.
++ `:active` when the cursor is clicking on the link.
   
   <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -163,7 +159,7 @@ input:focus{font-size: 2em;}
 input:enabled{ border: 2px solid black;}
 ```
 
-It is very important to take enough time to style our forms.  Styling is the best way to tell the user that an input is either disabled, checked, or that they have the cursor focusing on a particular input.
+It is very important to take enough time to style our forms.  Styling is the best way to tell the user that one input is either disabled, checked, or that the cursor is over a particular input.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -219,7 +215,7 @@ You can apply styles to elements based on their position.
 
 
 [[info]]
-|:link: This is a great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+|:link: Great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 
 

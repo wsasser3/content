@@ -1,10 +1,12 @@
 ---
-title: "Do you already know what is coding? Learn to Code here"
+title: "What is coding? Learn to Code"
 subtitle: "If you dont know what is coding don't worry, here you don't have to write HTML and CSS (not that much). Learn to code here and make computers write your code."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2017-02-11"
-tags: ["fale"]
+date: "2020-10-19T12:36:31-04:00"
+tags: ["learn to code","what is coding"]
+status: "draft"
+
 ---
 
 Algorithms are amazing.  They can serve several purposes, but, as web developers, we will use our algorithms to build HTML code and tell our programs how to react to the user interactions.
@@ -30,7 +32,7 @@ Computers don’t need visual interfaces, humans do.  But now you are becoming a
 [[warning]]
 | :point_up:What happened here?<br>When you pressed "run" the algorithm started executing, and the only action it performed was to print the sentence: "Hello, human… what are your orders for today?" 
 
-## **The Runtime** 
+## The Runtime 
 ***
 
 The runtime is the most abstract place you will find in your entire life.  It is similar to the mind of an artist just before he gets to the epiphany…okay, sorry, we got a little overexcited here…let’s put it in plain words:
@@ -45,10 +47,10 @@ This is what a "runtime error" (an error that occurs during runtime) looks like:
 
 
 
-## **The Language**
+## The Language
 ***
 
-Computers speak only one language: **Assembly**.  But using the assembly language is hard because it is the very base of everything.  You have to take care of basic things like cleaning the computer memory, converting string characters into their binary representation, etc.  That is why developers created layers of abstraction: to avoid doing the basic activities every day.  In the end, all the code you type is going to be converted into "Assembly" (but you don’t have to care about that).
+Computers speak only one language: **Assembly**.  But using the assembly language is hard because it is the very base of everything.  You have to take care of basic things like cleaning the computer memory, converting string characters into their binary representation, etc.  That is why developers created layers of abstraction: to avoid doing basic activities every day.  In the end, all the code you type is going to be converted into "Assembly" (but you don’t have to care about that).
 
 Today you will learn to code speaking JavaScript!
 
@@ -57,5 +59,5 @@ Today you will learn to code speaking JavaScript!
 + There are 302 open jobs in Miami [asking for JavaScript right now (indeed.com)](https://www.indeed.com/q-javascript-l-Miami,-FL-jobs.html), 2x’s more than PHP and 3 times more than Ruby.
 Need more proof?  We can keep talking all day.  Only by writing this lesson do I get anxious because JavaScript is so universal that you need to learn it right now!!!
 
-![what is coding learn to code](https://ucarecdn.com/b88d7b26-2786-4a3a-b6ee-4b6b84ad6ecf/-/resize/1000x/)
+![what is coding learn to code](../../assets/images/b88d7b26-2786-4a3a-b6ee-4b6b84ad6ecf.png)
   

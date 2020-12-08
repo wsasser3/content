@@ -1,10 +1,12 @@
 ---
-title: "What is SQL Database: Master Databases Here"
-subtitle: "Are you ready to work with data ? Learn here about what is SQL Database and how to work with it." 
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+title: "Mastering Databases: What is SQL Database"
+subtitle: "Are you ready to work with data ? Learn here about what is SQL Database and how to work with it."
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
-date: "2018-14-11"
-tags: ["fale"]
+date: "2020-10-19T12:36:31-04:00"
+tags: ["sql"]
+status: "published"
+
 ---
 
 ## Why are Databases Important?
@@ -14,14 +16,14 @@ Databases are the best way to store data, and everyday there is more and more da
 
 At the beginning, information was saved into more simple files like .csv (comma separated).  This was very disorganized – the data was both easy to corrupt and hard to access (imagine having to browse comma separated files).
 
-![What is SQL Database](https://ucarecdn.com/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a/-/resize/200x/)
+![Edgar Codd](../../assets/images/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a.jpeg)
 
-At some point, our friend [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd) decided to re-design those files and created a standard way of storing data into files focused on performance and integrity.  He partnered with mister [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) and together the created a language called SQL –  which was designed to work with data in a very friendly way.
+At some point, our friend [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd) decided to re-design those files and created a standard way of storing data into files focused on performance and integrity.  He partnered with mister [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) and together they created a language called SQL (Structured Query Language) –  which was designed to work with data in a more user-friendly way.
 
 ## What is SQL?
 ***
 
-SQL is the most used language when you want to speak to a database directly.   It stands for: Structured Query Language.  SQL a computer language for storing, manipulating and retrieving data that is stored into relational databases.
+SQL is the most used language when you want to speak to a database directly.   It stands for: Structured Query Language, and is simply a computer language for storing, manipulating and retrieving data that is stored in [relational databases](https://en.wikipedia.org/wiki/Relational_model).
 
 An SQL query syntax looks something like this:
 
@@ -37,21 +39,21 @@ In this example, we are asking the database for all the users with the email equ
 ## Defining your Database
 ***
 
-Databases are similar to what spreadsheets look like – everything gets stored into tables with rows and columns.
+Databases house collections of data called tables. Everything gets stored in tables with rows and columns, just like spreadsheets. Each column represents common attributes for the rows they intersect with, which are instances of the data.
 
 ####  What is a Table?
 
-Each table is an entity of information like "People", "Cars", "Events", etc.  The rows contain the actual data (real people, cars, events, etc.).  The table is the **only structure** capable of storing data via SQL.
+Each table is an entity of information like "People", "Cars", "Events", etc.  The rows contain the actual data representing an instance of the subject- so if we have a table called "People", it might contain columns for "First-Name", "Last-Name", and an "id", a row would have those values pertaining to the column, like "Bob", "Ross", and "42" (further breakdown below).  The table is the **only structure** capable of storing data via SQL.
 
 ####  What is a Column/Field?
 
-Tables have columns (just like excel).  A table called Person can have 4 columns: Name, Last Name, Birth-Date and Weight.  A table can have as many columns as you want.  Columns describe the table in a similar way as properties describe a class in object oriented programming.
+Tables have columns (just like excel).  A table called Person can have 4 columns: Name, Last Name, Birth-Date and Weight.  A table can have as many columns as you want, and will hold a specific type of value (such as string, integer, boolean etc).  Columns describe the table in a similar way as properties describe a class in object oriented programming.
 
 ####  What is a Row?
 
 If a table is called Persons and has those 4 columns (name, last name, birth date and weight), then the rows will be each specific person that you have stored into your database.
 
-![What is SQL Database](https://ucarecdn.com/4f549fb5-d4c8-4e31-b63c-34426b675b92/)
+![What is SQL Database](../../assets/images/4f549fb5-d4c8-4e31-b63c-34426b675b92.gif)
 
 &nbsp;
 &nbsp;
@@ -65,19 +67,19 @@ A database is a collection of inter-connected tables.  The connection between tw
 
 The perfect example is the IRS database:  this database probably has a table called TaxPayer that contains all the information about each person (with a social security number), and another table with the TaxDeclarations of the current year.  **One person can only have one declaration and one declaration can only be made by one person.**
 
-![What is SQL Database](https://ucarecdn.com/6f51ce02-3a75-4027-ada5-cf63c50d1701/-/resize/700x/)
+![What is SQL Database](../../assets/images/6f51ce02-3a75-4027-ada5-cf63c50d1701.png)
 
 **One to Many:**
 
-The Major League Baseball database probably has a table called Player (with the list of all the active players), and another table called Team with the list of all the active teams.  Both tables are connected because o**ne team has many players, but a player can be on only one team.**
+The Major League Baseball database probably has a table called Player (with the list of all the active players), and another table called Team with the list of all the active teams.  Both tables are connected because **one team has many players, but a player can be on only one team.**
 
-![What is SQL Databases](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/-/resize/700x/)
+![What is SQL Databases](../../assets/images/374d53ac-092f-4f34-a6f1-76bfaa5bd676.png)
 
 **Many to Many:**
 
 A Public Library database probably has one table called Author (containing the information of all the authors with books published), and also another table with ALL of the books that have ever been published.  Both tables are related because **one author can have many books and one book can have many authors.**
 
-![What is SQL Database](https://ucarecdn.com/af7344fc-0ee0-499e-8926-8f70dc9b2b0d/-/resize/700x/)
+![What is SQL Database](../../assets/images/af7344fc-0ee0-499e-8926-8f70dc9b2b0d.png)
 
 &nbsp;
 &nbsp;
@@ -85,8 +87,6 @@ A Public Library database probably has one table called Author (containing the i
 ## The SQL Syntax: Working the Tables
 ***
 
-
-The SQL Syntax: Working the Tables
 There are 3 main operations you can do to a table: Create, Update or Delete a table.  In SQL, those operations are called Create, Alter and Drop.  Remember that these operations are used to manipulate the structure of the database – not the data that it contains.
 
 #### CREATE:
@@ -149,7 +149,7 @@ INSERT INTO USER (ssn,username,email) VALUES ('234-45-3342','alesanchezr','a@bre
 
 #### UPDATE:
 
-Updates a record or row of a specific table.  You have to give a group either one or many conditions to identify the specific row(s) you want to update.
+Updates a record or row of a specific table.  You have to give either one or many conditions to identify the specific row(s) you want to update.
 
 ```sql
 UPDATE table_name SET column1 = value1 WHERE [condition]
@@ -175,8 +175,6 @@ DELETE FROM user WHERE ssn = '342-45-6732'
 ## Maintaining Data Integrity
 ***
 
-
-Maintaining Data Integrity
 Keeping the integrity of the data is hard!  Databases with a lot of activities and users normally struggle to keep data integrity.  Sometimes the data is so delicate and sensitive that adding a zero to a simple integer could end up making someone a millionaire!
 
 We can classify the integrity problems in 4 types:
@@ -190,7 +188,7 @@ We can classify the integrity problems in 4 types:
 
 + **User unique columns:**  This will avoid having users with the same email, with the same SSN, countries with the same name, etc.
 + **Use foreign keys** (constraints):  This will avoid having a baseball player on a team that does not exists.
-+ Specify **default values** and what columns can be **NULL:** perfect for
++ Specify **default values** and what columns can be **NULL** 
 + **Use enums:**  They are great to set the possible values of a column "status", or for a column "type", etc.
 + **Use transactions (commit and rollback):**  We will talk about that below; transactions are a good way of going back in time if something went wrong.
 
@@ -265,6 +263,7 @@ ROLLBACK;
 ```
 
 ### SAVEPOINT [savepoint name];
+
 A SAVEPOINT is a point in a transaction when you can roll the transaction back to a certain point without rolling back the entire transaction.
 
 The syntax for SAVEPOINT command is as follows:
@@ -300,7 +299,7 @@ SET TRANSACTION [ READ WRITE | READ ONLY ];
 ```
 
 [[info]]
-|:link:https://www.tutorialspoint.com/sql/sql-syntax.html
+|:link:https://www.tutorialspoint.com/sql/sql-syntax.htm
 
 
 

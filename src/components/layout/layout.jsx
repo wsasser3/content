@@ -1,14 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SEO from '../seo';
-import Header from '../header';
+import Navbar from '../Navbar.js';
 import { StaticQuery, graphql } from 'gatsby';
 
+import 'bootstrap/dist/css/bootstrap.css';
+import '@breathecode/ui-components/dist/main.css';
 import './layout.css';
 import '../../scss/index.scss';
-import 'bootstrap/dist/css/bootstrap.css';
-require("prismjs/themes/prism-okaidia.css");
-require("prismjs/plugins/line-numbers/prism-line-numbers.css");
+
+import "prismjs/themes/prism-okaidia.css";
+import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
 export const Layout = ({ children, seo }) => (
  <StaticQuery
@@ -21,22 +23,21 @@ export const Layout = ({ children, seo }) => (
         }
      }
    `}
-   render={data => (
+   render={data => {
+    return (
       <div>
-        <SEO
-            title={(typeof seo.title !== 'undefined') ? seo.title : (typeof data === 'undefined') ? '':data.site.siteMetadata.title}
-            description={seo.description || null}
-            image={seo.image || null}
-            url={seo.url || null}
+        <SEO {...seo }/>
+        <Navbar
+          siteTitle={(typeof data === 'undefined') ? '':data.site.siteMetadata.title}
+          hidden={true}
         />
-        <Header 
-          siteTitle={(typeof data === 'undefined') ? '':data.site.siteMetadata.title} 
-          hidden={true} />
-        <div className="container">
-          {children}
+        <div style={{ position: "relative" }}>
+            <div className="container">
+            {children}
+            </div>
         </div>
       </div>
-   )}
+   )}}
  />
 );
 

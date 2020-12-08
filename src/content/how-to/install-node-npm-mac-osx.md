@@ -1,15 +1,16 @@
 ---
 title: "How to install node and npm on a Mac (mojave)"
 subtitle: "Non official guide to install node.js and npm on a mac (tested with osx mojave version)"
-date: "2017-10-22"
-tags: ["node", "npm", "osx"]
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+date: "2020-10-19T12:36:30-04:00"
+tags: ["node","npm","osx"]
+authors: ["alesanchezr"]
 textColor: "white"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+status: "published"
+
 ---
 
-# How to install node and npm on a Mac (mojave)
-
-There are several ways to install node on any mac, but my recomendation will be to unstal it using brew and nvm.  
+There are several ways to install node on any mac, but my recomendation will be to install it using brew and nvm.  
 I think that is the best approach for several reasons:
 
   1. You will find that some times you want to switch between several versions of node depending on the libraries that you use, you dont want to be stuck in just one version.

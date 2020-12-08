@@ -39,6 +39,7 @@ template {
 }
 a {
   background-color: transparent;
+  background-image: none;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
@@ -340,7 +341,6 @@ ul {
   padding-top: 0;
   margin-bottom: 1.45rem;
   list-style-position: outside;
-  list-style-image: none;
 }
 ol {
   margin-left: 1.45rem;
@@ -352,7 +352,6 @@ ol {
   padding-top: 0;
   margin-bottom: 1.45rem;
   list-style-position: outside;
-  list-style-image: none;
 }
 dl {
   margin-left: 0;
@@ -515,9 +514,11 @@ li {
 }
 ol li {
   padding-left: 0;
+  list-style: inherit;
 }
 ul li {
   padding-left: 0;
+  list-style: inherit;
 }
 li > ol {
   margin-left: 1.45rem;
@@ -596,20 +597,19 @@ code {
   border-radius: 3px;
   font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
-  padding: 0;
+  padding: 5px !important;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
 }
 pre code {
   background: none;
   line-height: 1.42;
+  padding: 0;
 }
 code:before,
 code:after,
 tt:before,
 tt:after {
-  letter-spacing: -0.2em;
-  content: " ";
 }
 pre code:before,
 pre code:after,
